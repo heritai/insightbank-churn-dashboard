@@ -48,7 +48,9 @@ This dashboard demonstrates how **AI and machine learning** can transform custom
 
 ## 🚀 Live Demo
 
-👉 *Try the dashboard on Streamlit Cloud* [Insert your deployment link here]
+👉 *Try the dashboard on Streamlit Cloud* [Deploy Now](https://share.streamlit.io/)
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/)
 
 ![Dashboard Preview](https://via.placeholder.com/800x400/1f77b4/ffffff?text=InsightBank+Dashboard+Preview)
 
@@ -169,9 +171,22 @@ All required packages are listed in `requirements.txt`:
 - **Create visualizations**: Add new charts in `utils/visualization.py`
 
 ### **Deployment**
-- **Streamlit Cloud**: Deploy directly from GitHub
+
+#### **Streamlit Community Cloud (Recommended)**
+1. **Fork this repository** to your GitHub account
+2. **Go to [Streamlit Community Cloud](https://share.streamlit.io/)**
+3. **Click "New app"**
+4. **Connect your GitHub account** and select this repository
+5. **Configure deployment:**
+   - **Repository**: `your-username/insightbank-churn-dashboard`
+   - **Branch**: `main`
+   - **Main file path**: `app.py`
+6. **Click "Deploy!"**
+
+#### **Other Deployment Options**
 - **Docker**: Create a Dockerfile for containerized deployment
 - **AWS/Azure/GCP**: Deploy on cloud platforms using appropriate services
+- **Heroku**: Deploy using Heroku's Python support
 
 ---
 
